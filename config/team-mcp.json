@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "team-desk": {
+      "command": "/workspace/agents/.venv-team/bin/python",
+      "args": ["-m", "team_sync.server"],
+      "env": {
+        "PYTHONPATH": "/workspace/agents",
+        "TEAM_SYNC_DIR": "/workspace/agents/runtime/team-sync"
+      }
+    }
+  }
+}

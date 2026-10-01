@@ -2,6 +2,8 @@
 
 Use this folder to share short updates across agents, trading, design, cinematography and pitchdeck.
 
+Read [connection instructions](CONNECTIONS.md) for the shared read/write tools.
+
 ## Before working
 
 1. Read the project's own instructions and latest handoff.
