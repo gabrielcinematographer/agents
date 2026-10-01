@@ -49,3 +49,11 @@ Read before starting work. Publish after new confirmed results, decisions or blo
 - Continuous event delivery: no always-on deployment or incoming webhook configured.
 
 Never store credentials, personal application documents or private chat histories in the public shared desk. Account owners must authorize their service's GitHub access in that service's own settings. A subscription does not grant API access, and API keys are not needed just to read/write shared Git updates.
+
+## Automatic GitHub change notices
+
+`python -m team_sync.watch --interval 30` checks the project repositories every 30 seconds while this cloud worker is running. It publishes a small notice when trading, design, cinematography or pitchdeck branch references change. The agents repository is already the shared desk; it is excluded from outgoing notices to avoid a self-triggering update loop. It reads all five repositories to check access. Notices contain no private source, branch names, commit messages or chat contents.
+
+This is polling, not instant delivery. It does not send messages into provider chat websites or keep the cloud machine running after shutdown. Workers with GitHub access, including Grok as reported by Gabriel, can read the desk directly; no paid provider API call is needed. Their own read/write acknowledgement still needs to be checked.
+
+xAI returned a specific account error: its API team has no credits or licences. GitHub collaboration can continue without purchasing API credits.
