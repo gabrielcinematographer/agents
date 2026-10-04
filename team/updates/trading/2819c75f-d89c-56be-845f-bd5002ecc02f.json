@@ -1,0 +1,10 @@
+{
+  "project": "trading",
+  "provider": "codex",
+  "completed": "New GitHub changes detected; project workers should refresh before continuing.",
+  "evidence": "GitHub branch references changed; no source content was copied to this public desk.",
+  "next_step": "Read the project latest handoff and changes in its own repository.",
+  "blockers": "",
+  "event_id": "2819c75f-d89c-56be-845f-bd5002ecc02f",
+  "timestamp": "2026-10-04T10:59:50.016229+00:00"
+}
